@@ -8,7 +8,8 @@ export const Layout = props => (
         <img className="logo" src="/img/logo-judo-heroes.png" alt="Judo Heroes logo" />
       </Link>
     </header>
-    <div className="app-content">{props.children}</div>
+    // <div className="app-content">{props.children}</div>
+    <Game/>
     <footer>
       <p>
         This is a demo app to showcase <strong>universal Javascript</strong>
